@@ -26,8 +26,13 @@
     }
     .Contact{
         background-color: #FFD77C;
-        position: relative;
         display: flex;
+        font-display: black;
+        justify-content: center;
+    }
+    .header-4{
+        display: inline-flex;
+        font-display:black ;
         justify-content: center;
     }
 
