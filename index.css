@@ -1,0 +1,12 @@
+.star-6{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-right: 200px solid transparent;
+    border-left: 200px solid transparent;
+    border top: 300px solid black;
+    top: 300px;
+    left: 210px;
+
+}
