@@ -23,11 +23,17 @@
         display: flex;
         justify-content: space-around;
         background-color: #C9ECB5;
-
+    }
+    .Contact{
+        background-color: #FFD77C;
+        position: relative;
+        display: flex;
+        justify-content: center;
     }
 
 
-    }
+
+    
     
         
     
