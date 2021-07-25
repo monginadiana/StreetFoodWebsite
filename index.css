@@ -1,12 +1,16 @@
-.star-6{
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    border-right: 200px solid transparent;
-    border-left: 200px solid transparent;
-    border top: 300px solid black;
-    top: 300px;
-    left: 210px;
 
-}
+    .main-menu{
+      background-size: cover;
+      height: 100vh;
+    }
+    .main ul{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 50px 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+
+    
