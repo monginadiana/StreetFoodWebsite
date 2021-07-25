@@ -1,9 +1,10 @@
 
     .main-menu{
-      background-size: cover;
+      background-size:cover;
       height: 100vh;
+    
     }
-    .main ul{
+    ul{
         width: 100%;
         padding: 12px 20px;
         margin: 50px 0;
@@ -11,6 +12,18 @@
         display: flex;
         justify-content: space-evenly;
         list-style-type: none;
+        align-items: center;
+    
     }
+    .street{
+        align-self: center;
+    }
+    
+        
+    
+
+    
+
+    
 
     
