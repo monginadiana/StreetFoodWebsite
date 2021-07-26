@@ -26,13 +26,36 @@
     }
     .Contact{
         background-color: #FFD77C;
-        display: flex;
-        font-display: black;
+        display: inline-flexbox;
         justify-content: center;
+        text-align: center;
+    }
+    .get-intouch{
+        color: black;
+        font-size: initial;
+    }
+    .me{
+        color:green;
+        font-weight: inherit;
+    }
+    .Email{
+        margin-bottom: 50px;
+        margin-left: 20px;
+        border: transparent;
+        cursor: pointer;
+    }
+    .Send{
+        margin-bottom: 50PX;
+        color: green;
+        cursor: pointer;
+        font-size: initial;
+        padding: top;
+
     }
     .header-4{
-        display: inline-flex;
+        display: inline;
         font-display:black ;
+        position: inherit;
         justify-content: center;
     }
 
