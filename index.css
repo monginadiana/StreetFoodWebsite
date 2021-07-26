@@ -23,6 +23,9 @@
         display: flex;
         justify-content: space-around;
         background-color: #C9ECB5;
+        padding: left;
+        margin-left: inherit;
+        
     }
     .Contact{
         background-color: #FFD77C;
@@ -45,18 +48,29 @@
         cursor: pointer;
     }
     .Send{
-        margin-bottom: 50PX;
+        margin-bottom: 100PX;
         color: green;
         cursor: pointer;
         font-size: initial;
         padding: top;
 
     }
+    .send{
+        color: green;
+        cursor: pointer;
+    }
     .header-4{
         display: inline;
         font-display:black ;
         position: inherit;
         justify-content: center;
+    }
+    .Huge{
+        background-color: #C9ECB5;
+        font-size: initial;
+        color:black
+    }
+
     }
 
 
