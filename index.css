@@ -4,6 +4,11 @@
       height: 100vh;
     
     }
+    .section1{
+        text-align: center;
+        margin-top: initial;
+        margin-bottom: 0px;
+    }
     ul{
       
         width: 100%;
@@ -67,11 +72,10 @@
     }
     .Huge{
         background-color: #C9ECB5;
-        font-size: initial;
-        color:black
+        
     }
 
-    }
+    
 
 
 
