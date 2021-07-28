@@ -1,6 +1,9 @@
 body{
     font-family:'poppins';
+    
 }
+    
+    
 
     .Main-Menu{
 
@@ -9,33 +12,29 @@ body{
       background: lightgray;
       padding-bottom: 100px;
     }
+    .Main-Menu ::before{
+        clip-path: circle();
+    }
+    
 
     .section{
-        text-align: center;
         margin: 50px;
-        
-        
     }
+    h1{
+        text-align: center;
+    }
+        
 
     li {
         display: flex;
         justify-content: space-evenly;
         padding: 40px;
-       text-decoration: none;
+        text-decoration: none;
         color: black;
     }
     
-    .street{
-        align-self: center;
-    }
-    .footer{
-        display: flex;
-        justify-content: space-around;
-        background-color: #C9ECB5;
-        padding: left;
-        margin-left: inherit;
-        
-    }
+    
+    
     .Contact{
         background-color: #FFD77C;
         display: inline-flexbox;
@@ -58,12 +57,15 @@ body{
         margin-left: 20px;
         border: transparent;
         cursor: pointer;
+        border-radius: 20px;
+        font-size: 10px;
     }
     .Send{
         margin-bottom: 0PX;
-        color: green;
+        background-color: green;
         cursor: pointer;
-        font-size: initial;
+        font-size: 20px;
+        border: green;
         
 
     }
@@ -167,20 +169,36 @@ body{
     .delicacy{
         color: green;
     }
-    /*
-        width: 100%;
-        padding: 12px 20px;
-        margin: 50px 0;
-        box-sizing: border-box;
+    .footer{
         display: flex;
+        justify-content: space-around;
+        background-color: #C9ECB5;
+        padding: left;
+        margin-left: inherit;
+        
+    }
+    .street{
+        color: green;
+        font-size: 50px;
+    }
+    .sweet{
+        color: orange;
+        font-size: 50px;
+    }
+    h3{
+        font-weight: bold;
+        font-size: 30px;
+    }
 
-        justify-content: space-evenly;
-        list-style-type: none;
-        align-items: center;
-    */
-
-
-
+    p{
+        font-size: 20px;
+    }
+    .order{
+        font-size: 20px;
+        color: green;
+        cursor: pointer;
+    }
+    
     
     
         
