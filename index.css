@@ -41,14 +41,17 @@ body{
         display: inline-flexbox;
         justify-content: center;
         text-align: center;
+        font-size: 200%;
     }
     .get-intouch{
         color: black;
         font-size: initial;
+        font-size: 200%;
     }
     .me{
         color:green;
         font-weight: inherit;
+        font-size: 200%;
     }
     .Email{
         margin-bottom: 50px;
@@ -57,11 +60,11 @@ body{
         cursor: pointer;
     }
     .Send{
-        margin-bottom: 100PX;
+        margin-bottom: 0PX;
         color: green;
         cursor: pointer;
         font-size: initial;
-        padding: top;
+        
 
     }
     .send{
@@ -81,8 +84,15 @@ body{
     .Eat{
         text-align: center;
         position: relative;
-        bottom: -210px;
+        bottom: -110px;
         right: 50px;
+        font-size: 20px;
+
+    }
+    .cheese{
+        color: orange;
+        font-size: 50px;
+
     }
     .combo{
         background-color: #C9ECB5;
@@ -97,25 +107,37 @@ body{
         justify-content: space-between;
 
     }
-        
-        
-    
 
     .header{
         background: lightgray;
-        }
+        text-align: center;
+        font-size: 20px;
+    }
+    .Explore{
+        color: black;
+        font-weight: inherit;
+        font-size: 50%;
+    }
+    .Menu{
+        color: green;
+        font-weight: inherit;
+        font-size: 200%;
+    }
+
     .header1{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     .available{
         background-color: white;
         border-style: none;
-        border-bottom-right-radius: 15px;
-        padding: 50px;
-        margin: 50px;
+        border-bottom-right-radius: 80px;
+        padding: 1px;
+        margin: 80px;
+        bottom: 20px;
+        border-top-left-radius: 20;
         text-align: right;
         
 
@@ -139,7 +161,12 @@ body{
         left: 0px;
         z-index: 1;
     }
-
+    .Special{
+        font-size: 200%;
+    }
+    .delicacy{
+        color: green;
+    }
     /*
         width: 100%;
         padding: 12px 20px;
