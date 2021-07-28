@@ -1,3 +1,6 @@
+body{
+    font-family:'poppins';
+}
 
     .Main-Menu{
 
@@ -5,9 +8,6 @@
       z-index: 0;
       background: lightgray;
       padding-bottom: 100px;
-    }
-    .main-menu:before{
-        content: ;
     }
 
     .section{
@@ -17,9 +17,12 @@
         
     }
 
-    li{
-        display: inline-block;
+    li {
+        display: flex;
+        justify-content: space-evenly;
         padding: 40px;
+       text-decoration: none;
+        color: black;
     }
     
     .street{
@@ -71,10 +74,26 @@
         position: inherit;
         justify-content: center;
     }
-    .Huge{
-        background-color: #C9ECB5;
-        
+    .Team{
+        background-color: white;
     }
+    .combo{
+        background-color: #C9ECB5;
+    }
+    .Huge{
+        position: relative;
+        text-align: center;
+    }
+    .hot-combo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+        
+        
+    
+
     .header{
         background: lightgray;
         }
@@ -88,9 +107,30 @@
         background-color: white;
         border-style: none;
         border-bottom-right-radius: 15px;
-        padding: 10px;
+        padding: 50px;
         margin: 50px;
+        text-align: right;
+        
 
+    }
+    .picture{
+        position: relative;
+        bottom: 50px;
+        left: 50px;
+    }
+    
+    .Juices{
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        z-index: 0;
+
+    }
+    .burger{
+        position: absolute;
+        top: 130px;
+        left: 0px;
+        z-index: 1;
     }
 
     /*
