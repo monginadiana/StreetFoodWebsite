@@ -76,6 +76,13 @@ body{
     }
     .Team{
         background-color: white;
+        display: flex;
+    }
+    .Eat{
+        text-align: center;
+        position: relative;
+        bottom: -210px;
+        right: 50px;
     }
     .combo{
         background-color: #C9ECB5;
