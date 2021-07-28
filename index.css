@@ -12,18 +12,19 @@ body{
     
     
 
-    .Main-Menu{
+    .Main{
 
       position: relative;
       z-index: 0;
       background: lightgray;
-      padding-bottom: 100px;
-      ;
+      padding-bottom: 40px;   
     }
-    
-    
+    .Main:before{
+        background-color:#649549;
+        clip-path: circle (27.7% at 88% 0);
+    }
 
-    .section{
+     .section{
         margin: 50px;
     }
     h1{
