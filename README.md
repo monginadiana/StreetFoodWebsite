@@ -14,6 +14,6 @@ This streetFood website entails a a contact information, the hot deals available
 {HTML, CSS.}
 
 ### License
-This project is licensed under[MIT LICENSE]
+This project is licensed under[Mitlicense]
 Copyright (c) {2021} **{DIANA ONDIEKI}**
   
