@@ -14,16 +14,24 @@ body{
     }
     
 
-    .Main{
+    .Main-Menu{
 
       position: relative;
       z-index: 0;
-      background: lightgray;
+      background:rgb(235, 235, 235);
       padding-bottom: 40px;   
     }
-    .Main:before{
-        background-color:#649549;
-        clip-path: circle (27.7% at 88% 0);
+    .Main-Menu::before{
+        
+        background-color: green;
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 4;
     }
 
      .section{
