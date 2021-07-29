@@ -1,15 +1,19 @@
-README.md
-StreetFood Website
-By Diana Ondieki
-Description.
-This is that project that decsribes the avaialbe streetfood.
-Technologies used 
-HTML, CSS.
-setup $ installation instructions
-Open your terminal
-Change the current working directory to where you'd want it cloned
-Type git clone https://github.com/monginadiana/StreetFoodWebsite
-Press Enter to create your local clone
-License
- MIT License
- You can view the full license https://choosealicense.com/licenses/mit/
+# {STREETFOOD WEBSITE}
+#### {This is a streetfood Website}, {July 2021}
+#### By **{Diana Ondieki}**
+## Description
+This streetFood website entails a a contact information, the hot deals available and the opening and closing hours during the week and during the weekends.
+## Setup/Installation Requirements
+* Open your terminal
+* change current directory to where you want it cloned
+* type git clone https://github.com/monginadiana/StreetFoodWebsite
+* press enter to create a local clone.
+
+
+## Technologies Used
+{HTML, CSS.}
+
+### License
+This project is licensed under[MIT LICENSE]
+Copyright (c) {2021} **{DIANA ONDIEKI}**
+  
